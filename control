@@ -1,0 +1,12 @@
+Package: com.spartacus.tweakio.iosrepoupdates
+Name: Tweakio iOS Repo Updates
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Adds iOS Repo Updates for Tweakio
+Depiction: https://spartacusdev.github.io/depictions/tweakio-ios-repo-updates.html
+SileoDepiction: https://spartacusdev.github.io/sileoDepictions/tweakio-ios-repo-updates.json
+Icon: https://spartacusdev.github.io/images/Tweakio.png
+Maintainer: Spartacus
+Author: Spartacus
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.spartacus.tweakio (>= 0.1.0)
