@@ -17,7 +17,8 @@ include $(THEOS)/makefiles/common.mk
 LIBRARY_NAME = TweakioiOSRepoUpdates
 
 $(LIBRARY_NAME)_FILES = Tweak.x
-$(LIBRARY_NAME)_FRAMEWORKS += UIKit WebKit QuartzCore
+$(LIBRARY_NAME)_FRAMEWORKS += Foundation
+$(LIBRARY_NAME)_LIBRARIES += substrate
 $(LIBRARY_NAME)_CFLAGS = -fobjc-arc
 $(LIBRARY_NAME)_INSTALL_PATH = /Library/TweakioPlugins
 
